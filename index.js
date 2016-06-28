@@ -22,7 +22,7 @@ function parseProjects(projectArray) {
 
 function printUsage() {
   console.error("Usage:");
-  console.error("    lab merge-request base_branch=master source_branch title");
+  console.error("    lab merge-request my/project base_branch=master source_branch title");
   console.error("");
   console.error("more coming soon (maybe)");
 }

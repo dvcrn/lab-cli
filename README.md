@@ -25,7 +25,7 @@ Create a `~/.labrc` file in the following format:
 lab
 
 Usage:
-    lab merge-request base_branch=master source_branch title
+    lab merge-request my/project base_branch=master source_branch title
 
 more coming soon (maybe)
 
