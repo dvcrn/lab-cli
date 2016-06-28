@@ -1,0 +1,33 @@
+{
+  "name": "lab-cli",
+  "version": "0.0.1",
+  "description": "simple CLI for gitlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvcrn/lab-cli.git"
+  },
+  "bin": {
+    "lab": "./index.js"
+  },
+  "keywords": [
+    "git",
+    "gitlab",
+    "lab",
+    "cli",
+    "commandline"
+  ],
+  "author": "David Mohl",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "rewire": "^2.5.1"
+  },
+  "dependencies": {
+    "sync-request": "^3.0.1",
+    "untildify": "^3.0.2"
+  }
+}
