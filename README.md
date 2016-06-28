@@ -10,6 +10,15 @@ features if I run into things that I personally need.
 npm install -g lab-cli
 ```
 
+## Config
+Create a `~/.labrc` file in the following format:
+```
+{
+  "access_token": "123abc",
+  "domain": "my.gitlab.com"
+}
+```
+
 ## Usage
 
 ```
