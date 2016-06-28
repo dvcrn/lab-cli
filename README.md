@@ -30,3 +30,8 @@ Usage:
 more coming soon (maybe)
 
 ```
+
+
+## License
+
+MIT
