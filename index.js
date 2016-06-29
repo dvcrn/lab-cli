@@ -86,7 +86,7 @@ function mergeRequest(base, from, title) {
   };
 
   const response = postRequest(endpoint, payload);
-  if (response.statusCode !== 200) {
+  if (response.jsonBody === null || !response.jsonBody["id"]) {
     console.error("Couldn't create merge request.");
     return;
   }
