@@ -91,7 +91,7 @@ function mergeRequest(base, from, title) {
     return;
   }
 
-  const url = "https://" + config.domain + "/" + arg.project + "/merge_requests" + response.jsonBody["id"];
+  const url = "https://" + config.domain + "/" + arg.project + "/merge_requests/" + response.jsonBody["id"];
   console.info("Merge request created: " + url);
   return;
 }
