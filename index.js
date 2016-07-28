@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const untildify = require('untildify');
 const request = require('sync-request');
-const ora = require('ora');
 
 let config = {};
 let arg = {
