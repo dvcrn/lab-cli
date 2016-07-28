@@ -86,12 +86,12 @@ function mergeRequest(base, from, title) {
   };
 
   const response = postRequest(endpoint, payload);
-  if (response.jsonBody === null || !response.jsonBody["id"]) {
+  if (response.jsonBody === null || !response.jsonBody["iid"]) {
     console.error("Couldn't create merge request.");
     return;
   }
 
-  const url = "https://" + config.domain + "/" + arg.project + "/merge_requests/" + response.jsonBody["id"];
+  const url = "https://" + config.domain + "/" + arg.project + "/merge_requests/" + response.jsonBody["iid"];
   console.info("Merge request created: " + url);
   return;
 }
