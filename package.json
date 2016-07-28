@@ -1,6 +1,6 @@
 {
   "name": "lab-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "simple cli for gitlab",
   "main": "index.js",
   "scripts": {
